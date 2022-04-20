@@ -1,0 +1,18 @@
+name: PremierPlugin
+author: maxime
+version: 1.0
+main: fr.maxi_pixel.test.Main
+api-version: 1.16
+commands:
+  bc:
+    description: Cette commande permet d'envoyer un broadcast.
+  ec:
+    description: Cette commande permet d'ouvrir son enderChest.
+  invsee:
+    description: Cette commande permet de regarder l'inventaire des autres joueurs.
+  spawn:
+    description: Cette commande permet de se tp au spawn.
+  sb:
+    description: Cette commande permet de mettre a jour le scoreboard.
+libraries:
+  - com.squareup.okhttp3:okhttp:4.9.0
